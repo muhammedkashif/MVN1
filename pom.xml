@@ -23,5 +23,13 @@
     <dependencies>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>Administrators-MacBook-Pro-2.local-releases</name>
+            <url>http://localhost:8081/artifactory/libs-release-local</url>
+        </repository>
+    </distributionManagement>
+
 
 </project>
