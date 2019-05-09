@@ -7,6 +7,8 @@ public class DemoClass {
         System.out.println(add(x,y));
         System.out.println(isStr(str));
         System.out.println(sub(x,y));
+        System.out.println(divide(x,y));
+        System.out.println(multiply(x,y));
     }
     public static int add(int x, int y){
         return x+y;
@@ -17,5 +19,11 @@ public class DemoClass {
     }
     public static int sub(int x, int y){
         return x-y;
+    }
+    public static int divide(int x, int y){
+        return x/y;
+    }
+    public static int multiply(int x, int y){
+        return x*y;
     }
 }
