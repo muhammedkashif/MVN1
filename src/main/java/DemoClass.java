@@ -12,6 +12,7 @@ public class DemoClass {
         System.out.println(multiply(x,y));
         System.out.println(square(x));
     }
+    // function to add 2 numbers
     public static int add(int x, int y){
         return x+y;
     }
