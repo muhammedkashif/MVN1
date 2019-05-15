@@ -28,6 +28,7 @@ public class DemoClass {
     public static int sub(int x, int y){
         return x-y;
     }
+    // function to divide 2 numbers
     public static int divide(int x, int y){
         return x/y;
     }
