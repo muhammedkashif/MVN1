@@ -6,6 +6,7 @@ public class DemoClass {
 
         System.out.println(add(x,y));
         System.out.println(isStr(str));
+        System.out.println(isNotStr(str));
         System.out.println(sub(x,y));
         System.out.println(divide(x,y));
         System.out.println(multiply(x,y));
@@ -16,6 +17,10 @@ public class DemoClass {
     }
     public static boolean isStr(String str){
         if(str.equals("ABCDEFG")) return true;
+        return false;
+    }
+    public static boolean isNotStr(String str){
+        if(!str.equals("ABCDEFG")) return true;
         return false;
     }
     public static int sub(int x, int y){
