@@ -1,7 +1,7 @@
 public class DemoClass {
     public static void main(String args[]){
         String str="ABCDEFG";
-        int x=1;
+        int x=5;
         int y=2;
 
         System.out.println(add(x,y));
@@ -9,6 +9,7 @@ public class DemoClass {
         System.out.println(sub(x,y));
         System.out.println(divide(x,y));
         System.out.println(multiply(x,y));
+        System.out.println(square(x));
     }
     public static int add(int x, int y){
         return x+y;
@@ -25,5 +26,8 @@ public class DemoClass {
     }
     public static int multiply(int x, int y){
         return x*y;
+    }
+    public static int square(int x){
+        return x*x;
     }
 }
