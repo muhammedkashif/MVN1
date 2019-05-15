@@ -24,6 +24,7 @@ public class DemoClass {
         if(!str.equals("ABCDEFG")) return true;
         return false;
     }
+    // function to sub 2 numbers
     public static int sub(int x, int y){
         return x-y;
     }
