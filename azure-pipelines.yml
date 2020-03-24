@@ -1,6 +1,7 @@
 # Node.js
 - task: ArtifactoryGenericDownload@2
   inputs:
+    connection: 'Artifactory'
     specSource: 'taskConfiguration'
     fileSpec: |
       {
