@@ -1,4 +1,17 @@
 # Node.js
+- task: ArtifactoryMaven@2
+  inputs:
+    mavenPomFile: 'pom.xml'
+    goals: 'install'
+    artifactoryResolverService: 'Artifactory-local'
+    targetResolveReleaseRepo: 'libs-release'
+    targetResolveSnapshotRepo: 'libs-snapshot'
+    artifactoryDeployService: 'Artifactory-local'
+    targetDeployReleaseRepo: 'libs-release-local'
+    targetDeploySnapshotRepo: 'libs-snapshot-local'
+    collectBuildInfo: true
+    buildName: '$(Build.DefinitionName)'
+    buildNumber: '$(Build.BuildNumber)'
 - task: ArtifactoryGenericDownload@2
   inputs:
     connection: 'Artifactory'
