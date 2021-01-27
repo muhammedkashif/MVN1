@@ -27,7 +27,7 @@
         <repository>
             <id>central</id>
             <name>Administrators-MacBook-Pro-2.local-releases</name>
-            <url>http://localhost:8081/artifactory/libs-snashot-local</url>
+            <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
         </repository>
     </distributionManagement>
 
